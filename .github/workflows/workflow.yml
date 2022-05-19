@@ -26,7 +26,7 @@ jobs:
       environmentType: Test
       resourceGroupName: ToyWebsiteTest
       reviewApiUrl: https://sandbox.contoso.com/reviews
-        sqlServerAdministratorLogin: TestToyCompanyAdmin
+      sqlServerAdministratorLogin: TestToyCompanyAdmin
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS_TEST }}
       reviewApiKey: ${{ secrets.REVIEW_API_KEY_TEST }}

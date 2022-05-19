@@ -20,7 +20,7 @@ jobs:
 
   # Deploy to the test environment.
   deploy-test:
-    uses: YOUR_GITHUB_USERNAME/toy-website-end-to-end/.github/workflows/deploy.yml@main
+    uses: bassirou96/toy-website-end-to-end/.github/workflows/deploy.yml@main
     needs: [build,lint]
     with:
       environmentType: Test
@@ -32,7 +32,7 @@ jobs:
 
   # Deploy to the production environment.
   deploy-production:
-    uses: bassirou96/toy-website-end-to-end/.github/workflows/deploy.yml@main
+    uses:  bassirou96/toy-website-end-to-end/.github/workflows/deploy.yml@main
     needs:
     - lint
     - build

@@ -146,7 +146,8 @@ jobs:
       sql-file: 'deploy/sample-data/Toys.sql'   
   
   seed-storage-account:
-  needs: deploy
+  needs: 
+  - deploy
   environment: ${{ inputs.environmentType }}
   runs-on: ubuntu-latest
   steps:

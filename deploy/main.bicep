@@ -32,7 +32,7 @@ param sqlServerAdministratorLoginPassword string
 var appServiceAppName = 'toy-website-${resourceNameSuffix}'
 var appServicePlanName = 'toy-website'
 var applicationInsightsName = 'toywebsite'
-var storageAccountName = 'mystorage${resourceNameSuffix}'
+var storageAccountName = 'bass${resourceNameSuffix}'
 var storageAccountImagesBlobContainerName = 'toyimages'
 var sqlServerName = 'toy-website-${resourceNameSuffix}'
 var sqlDatabaseName = 'Toys'
